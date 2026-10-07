@@ -1,0 +1,10 @@
+<group name="local,syscheck,">
+
+  <rule id="100002" level="12">
+    <if_sid>550</if_sid>
+    <field name="file">C:\\SOC-Lab\\Monitored\\important.txt</field>
+    <description>Custom SOC Alert: Critical monitored file modified - important.txt</description>
+    <group>custom_fim,critical_file_modified,</group>
+  </rule>
+
+</group>
