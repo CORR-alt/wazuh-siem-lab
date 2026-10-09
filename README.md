@@ -52,7 +52,7 @@ The Wazuh was Deployed on an Ubunter server virtual machine to provide the centr
 
 
 
-![Wazuh installation completed](screenshts/01-wazuh-installation.png.png)
+![Wazuh installation completed](./screenshots/01-wazuh-installation.png.png)
 
 
 
@@ -60,7 +60,7 @@ following the installation, the Wazuh dashboard was accessed successfully and co
 
 
 
-!\[Wazuh dashboard](02-wazuh-dashboard.png)
+!\[Wazuh dashboard](./screenshots/02-wazuh-dashboard.png.png)
 
 
 
