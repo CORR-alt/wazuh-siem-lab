@@ -66,7 +66,7 @@ following the installation, the Wazuh dashboard was accessed successfully and co
 
 
 
-## Lab ARchitecture
+## Lab Architecture
 
 
 
@@ -78,15 +78,15 @@ the lab was built using VMware Workstation and consists of two virtal machines t
 
 
 
-- \*\*operating system:\*\* ubuntu server 24.04 LTS
+- **operating system:** ubuntu server 24.04 LTS
 
-- \*\*Role:\*\* Wazuh manager, indexer and dashboard
+- **Role:** Wazuh manager, indexer and dashboard
 
-- \*\*Resrouces:\*\* 4 CPU cores, 8gb RAM, approximately 50gb of storage
+- **Resrouces:** 4 CPU cores, 8gb RAM, approximately 50gb of storage
 
-- \*\*Network:\*\* VMware NAT
+- **Network:** VMware NAT
 
-- \*\*Lab IP:\*\* '192.168.80.128'
+- **Lab IP:** '192.168.80.128'
 
 
 
@@ -94,15 +94,15 @@ the lab was built using VMware Workstation and consists of two virtal machines t
 
 
 
-- \*\*Operating system:\*\* Windows 11 Pro
+- **Operating system:** Windows 11 Pro
 
-- \*\*Role:\*\* Monitored endpoint used to generate controlled security events
+- **Role:** Monitored endpoint used to generate controlled security events
 
-- \*\*Wazuh agent:\*\* 4.14.8
+- **Wazuh agent:** 4.14.8
 
-- \*\*Network:\*\* VMware NAT
+- **Network:** VMware NAT
 
-- \*\*Lab IP:\*\* '192.168.80.129'
+- **Lab IP:** '192.168.80.129'
 
 
 
@@ -156,11 +156,11 @@ the wazuh agent installed on the windows enpoint collected the security teletry 
 
 └──────────────┬──────────────┘
 
-&#x20;              │
+               │
 
-&#x20;              ▼
+               ▼
 
-&#x20;      Alerts \& Investigation
+      Alerts & Investigation
 
 ```
 
@@ -185,11 +185,11 @@ the failed authentication attempts were recorded y the windows security event lo
 
 the test successfully produced
 
-&#x20;- \*\*9 Authentication failure alerts\*\*
+&#x20;- 9 Authentication failure alerts
 
 &#x20;- Wazuh rule ID: '60122'
 
-&#x20;- Severity: \*\*Level 5\*\*
+&#x20;- Severity: Level 5
 
 &#x20;- Description: 'Logon Failure - Unknown user or bad password'
 
@@ -229,7 +229,7 @@ the activity that was produced:
 
 &#x20;- Wazuh Rule ID: '60110' - 'User account changed'
 
-&#x20;- Severity: \*\*Level 8\*\*
+&#x20;- Severity: 'Level 8'
 
 &#x20;- Source endpoint: 'WIN-ENDPOINT1'
 
@@ -251,9 +251,9 @@ wazuh also mapped the detected activity to the MITRE ATT\&CK framework:
 
 
 
-&#x20;- \*\*Technique:\*\* T1098 - Account manipulation
+&#x20;- **Technique:** T1098 - Account manipulation
 
-&#x20;- \*\*Tactics:\*\* Persistence
+&#x20;- **Tactics:** Persistence
 
 
 
@@ -291,13 +291,13 @@ wazuh sucesfully detecte both stages of activity:
 
 
 
-&#x20;- \*\*Rule 554\*\* - 'File added t the system' - Level 5
+&#x20;- **Rule 554** - 'File added t the system' - Level 5
 
-&#x20;- \*\*Rule 550\*\* - 'integrity checksum changed' - level 7
+&#x20;- **Rule 550** - 'integrity checksum changed' - level 7
 
-&#x20;- monitoring mode: \*\*Real-time\*\*
+&#x20;- monitoring mode: Real-time
 
-&#x20;- Source endpoint: 'WIN-ENDPOINT1'
+&#x20;- Source endpoint: WIN-ENDPOINT1
 
 
 
@@ -333,9 +333,9 @@ the Wazuh mapped the detected activity to the MITRE ATT\&CK framework:
 
 
 
-&#x20;- \*\*Technique:\*\* T1565.001 — Stored Data Manipulation
+&#x20;- **Technique:** T1565.001 — Stored Data Manipulation
 
-&#x20;- \*\*Tactic:\*\* Impact
+&#x20;- **Tactic:** Impact
 
 
 
@@ -373,15 +373,15 @@ the custom rule was configured as:
 
 
 
-&#x20;- \*\*Customer rule ID:\*\* '100002'
+&#x20;- **Customer rule ID:** '100002'
 
-&#x20;- \*\*Severity:\*\* Level 12
+&#x20;- **Severity:** Level 12
 
-&#x20;- \*\*Parent Rule:\*\* '550'
+&#x20;- **Parent Rule:** '550'
 
-&#x20;- \*\*Custom Group:\*\* 'custom\_fim'
+&#x20;- **Custom Group:** 'custom\_fim'
 
-&#x20;- \*\*Detection File:\*\* 'important.txt'
+&#x20;- **Detection File:** 'important.txt'
 
 
 
@@ -429,13 +429,13 @@ before retating the Wazuh manager the rule configuration was validated to ensure
 
 a second controlled modification was then made to important.txt, and the Wazuh successfully matched the underlying FIM event agains the custom rule and generated the following alert:
 
-&#x20;- \*\*Rule ID\*\* 100002
+&#x20;- **Rule ID** 100002
 
-&#x20;- \*\*severity:\*\* Level 12
+&#x20;- **severity:** Level 12
 
-&#x20;- \*\*Description:\*\* Custom SOC Alert: Critical monitored file modified - important.txt
+&#x20;- **Description:** Custom SOC Alert: Critical monitored file modified - important.txt
 
-&#x20;- \*\*Detection mode:\*\* Real-time
+&#x20;- **Detection mode:** Real-time
 
 
 
@@ -507,7 +507,7 @@ overall, thetroubleshootin process reinforced the importance of validation each 
 
 
 
-\*\*Event Generation → Endpoint Logging → Agent Collection → Manager Processing → Rule Matching → Alert Investigation\*\*
+**Event Generation → Endpoint Logging → Agent Collection → Manager Processing → Rule Matching → Alert Investigation**
 
 
 
@@ -569,7 +569,11 @@ the project the extended the wazuhs built in detection capabailities by implemen
 the completed lab demonstrates an end-to-end security monitoring workflow covering endpoint telemettu collection, SIEM analysis, threat investigation, MITRE ATT\&CK contextualisation and custom detection engineering.
 
 
-
+\
+\
+\
+\
+\
 
 
 
