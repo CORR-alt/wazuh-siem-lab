@@ -162,6 +162,8 @@ the wazuh agent installed on the windows enpoint collected the security teletry 
 
 &#x20;      Alerts \& Investigation
 
+```
+
 
 
 
@@ -195,7 +197,7 @@ the test successfully produced
 
 
 
-!\[Failed authentication alerts](screenshots/04-failed-authentication-detection.png)
+![Failed authentication alerts](./screenshots/04-failed-authentication-detection.png.png)
 
 
 
