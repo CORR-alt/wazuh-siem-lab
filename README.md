@@ -52,7 +52,7 @@ The Wazuh was Deployed on an Ubunter server virtual machine to provide the centr
 
 
 
-!\[Wazuh installation completed](screenshots/01-wazuh-installation.png)
+!\[Wazuh installation completed](screenshots/01-wazuh-installation.png.png)
 
 
 
