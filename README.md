@@ -419,6 +419,8 @@ the rule uses wazuhs existing FIM detection as its parent and it applies additio
 
 </group>
 
+```
+
 
 
 before retating the Wazuh manager the rule configuration was validated to ensure that thenew detection logic did not introduce configuration errors.
@@ -437,7 +439,7 @@ a second controlled modification was then made to important.txt, and the Wazuh s
 
 
 
-&#x20;!\[Custom rule Alert](09-custom-rule-alert.png)
+&#x20;![Custom rule Alert](./09-custom-rule-alert.png.png)
 
 
 
