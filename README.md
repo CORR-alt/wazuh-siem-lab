@@ -60,7 +60,7 @@ following the installation, the Wazuh dashboard was accessed successfully and co
 
 
 
-!\[Wazuh dashboard](./screenshots/02-wazuh-dashboard.png.png)
+![Wazuh dashboard](./screenshots/02-wazuh-dashboard.png.png)
 
 
 
