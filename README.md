@@ -1,8 +1,8 @@
-\# Wazuh SOC \& SIEM Home Lab
+# Wazuh SOC \& SIEM Home Lab
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -44,7 +44,7 @@ the overall objectives of this project was to achieve more that simply installin
 
 
 
-\## Lab Deployment
+## Lab Deployment
 
 
 
@@ -66,7 +66,7 @@ following the installation, the Wazuh dashboard was accessed successfully and co
 
 
 
-\## Lab ARchitecture
+## Lab ARchitecture
 
 
 
@@ -74,7 +74,7 @@ the lab was built using VMware Workstation and consists of two virtal machines t
 
 
 
-\### Wazuh server
+### Wazuh server
 
 
 
@@ -90,7 +90,7 @@ the lab was built using VMware Workstation and consists of two virtal machines t
 
 
 
-\### windows endpoint
+### windows endpoint
 
 
 
@@ -110,7 +110,7 @@ the wazuh agent installed on the windows enpoint collected the security teletry 
 
 
 
-\### Architecture
+### Architecture
 
 
 
@@ -166,12 +166,11 @@ the wazuh agent installed on the windows enpoint collected the security teletry 
 
 
 
-\## Security Deteciton Scenarios
+## Security Deteciton Scenarios
 
 
 
-\### 1. detection of failed Authentication
-
+### 1. detection of failed Authentication
 
 
 to test the windows authentication monitoring, multiple controlled loggin attempts were done on the windows 11 endpoint using an incorrect password.
