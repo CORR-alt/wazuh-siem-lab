@@ -211,7 +211,7 @@ the repeated authentication failures could represent a legitimate user failing t
 
 
 
-\### 2. windows account creation and modification
+### 2. windows account creation and modification
 
 
 
@@ -235,7 +235,7 @@ the activity that was produced:
 
 
 
-!\[Windows account management alerts](screenshots/05-account-creation-alerts.png)
+![Windows account management alerts](./screenshots/05-account-creation-alerts.png.png)
 
 
 
@@ -243,7 +243,7 @@ detailed anyssis of the eetns identief the test account 'TestSOCUser' within the
 
 
 
-!\[Account creation event details](screenshots/06-account-creation-event-details.png)
+![Account creation event details](./screenshots/06-account-creation-event-details.png.png)
 
 
 
@@ -257,7 +257,7 @@ wazuh also mapped the detected activity to the MITRE ATT\&CK framework:
 
 
 
-!\[Account manipulation MITRE ATT\&CK mapping](screenshots/06b-account-creation-mitre-details.png)
+![Account manipulation MITRE ATT\&CK mapping](./screenshots/06b-account-creation-mitre-details.png.png)
 
 
 
@@ -271,7 +271,7 @@ following validatin of the detection, the test account was no longer needed and 
 
 
 
-\### 3. File integrity monitoring
+### 3. File integrity monitoring
 
 
 
@@ -301,7 +301,7 @@ wazuh sucesfully detecte both stages of activity:
 
 
 
-!\[File Integrity Monitoring alerts](screenshots/07-fim-alerts.png)
+![File Integrity Monitoring alerts](./screenshots/07-fim-alerts.png.png)
 
 
 
@@ -325,7 +325,7 @@ the alert contained both the previous and updated cryptographic hashes, allowing
 
 
 
-!\[File integrity change details](screenshots/08-fim-integrity-details.png)
+![File integrity change details](./screenshots/08-fim-integrity-details.png.png)
 
 
 
@@ -349,7 +349,7 @@ an anayst that is investigating such an alert would determin what changed, ident
 
 
 
-\### 4. custom detection engineering
+### 4. custom detection engineering
 
 
 
