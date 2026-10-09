@@ -439,7 +439,7 @@ a second controlled modification was then made to important.txt, and the Wazuh s
 
 
 
-&#x20;![Custom rule Alert](./09-custom-rule-alert.png.png)
+&#x20;![Custom rule Alert](./screenshots/09-custom-rule-alert.png.png)
 
 
 
@@ -459,7 +459,7 @@ Identify Relevant Telemetry → Develop Detection Logic → Validate Configurati
 
 
 
-\## troubleshooting \& lessons learned
+## troubleshooting \& lessons learned
 
 
 
@@ -467,7 +467,7 @@ several issues were encountered during the deployment and the testing process, t
 
 
 
-\### windows agent configuration 
+### windows agent configuration 
 
 
 
@@ -475,7 +475,7 @@ the windows wazuh agent initially dialed to start correctly because the manager 
 
 
 
-\### windows event investigation
+### windows event investigation
 
 
 
@@ -487,7 +487,7 @@ the events were ultimately located through broader threat huntering searches, th
 
 
 
-\### File integrity Monitoring
+### File integrity Monitoring
 
 
 
@@ -495,7 +495,7 @@ the Wazuh agentcofigruing was modified to enable real time monitoring of a dedic
 
 
 
-\### custom rule development
+### custom rule development
 
 
 
@@ -511,7 +511,7 @@ overall, thetroubleshootin process reinforced the importance of validation each 
 
 
 
-\## Skills Demonstrated
+## Skills Demonstrated
 
 
 
@@ -557,7 +557,8 @@ This project provided practical experience with:
 
 
 
-\## in concluding this project demonstrated the deployment and practical use of a wazuh SIEM environment rather than simply completing and installation, multiple controlled security events were generated, detected an investigated, including authentication failures, windos account-management and file-integrity changes.
+## Conlusion
+in concluding this project demonstrated the deployment and practical use of a wazuh SIEM environment rather than simply completing and installation, multiple controlled security events were generated, detected an investigated, including authentication failures, windos account-management and file-integrity changes.
 
 
 
@@ -566,4 +567,12 @@ the project the extended the wazuhs built in detection capabailities by implemen
 
 
 the completed lab demonstrates an end-to-end security monitoring workflow covering endpoint telemettu collection, SIEM analysis, threat investigation, MITRE ATT\&CK contextualisation and custom detection engineering.
+
+
+
+
+
+
+
+
 
