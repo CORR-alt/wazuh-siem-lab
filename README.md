@@ -18,23 +18,23 @@ The projet Covers:
 
 
 
-&#x20;- Deploment of a Wazuh SIEM environment
+- Deploment of a Wazuh SIEM environment
 
-&#x20;- Windows endpoint integration and security event collection
+- Windows endpoint integration and security event collection
 
-&#x20;- detection and investigation of failed authentication attempts
+- detection and investigation of failed authentication attempts
 
-&#x20;- Monitoring of windows account creation and modification
+- Monitoring of windows account creation and modification
 
-&#x20;- Real-Time Files integrity monitoring (FIM)
+- Real-Time Files integrity monitoring (FIM)
 
-&#x20;- analysis of file integrity chanes using cryptographic hashes
+- analysis of file integrity chanes using cryptographic hashes
 
-&#x20;- MITRE ATT\&ack mapping of detected acivity
+- MITRE ATT\&ack mapping of detected acivity
 
-&#x20;- development and validation of a custom Wazuh detection rule
+- development and validation of a custom Wazuh detection rule
 
-&#x20;- escalation of a monitored file modification to a custom level 12 alert
+- escalation of a monitored file modification to a custom level 12 alert
 
 
 
@@ -78,15 +78,15 @@ the lab was built using VMware Workstation and consists of two virtal machines t
 
 
 
-&#x20;- \*\*operating system:\*\* ubuntu server 24.04 LTS
+- \*\*operating system:\*\* ubuntu server 24.04 LTS
 
-&#x20;- \*\*Role:\*\* Wazuh manager, indexer and dashboard
+- \*\*Role:\*\* Wazuh manager, indexer and dashboard
 
-&#x20;- \*\*Resrouces:\*\* 4 CPU cores, 8gb RAM, approximately 50gb of storage
+- \*\*Resrouces:\*\* 4 CPU cores, 8gb RAM, approximately 50gb of storage
 
-&#x20;- \*\*Network:\*\* VMware NAT
+- \*\*Network:\*\* VMware NAT
 
-&#x20;- \*\*Lab IP:\*\* '192.168.80.128'
+- \*\*Lab IP:\*\* '192.168.80.128'
 
 
 
@@ -94,15 +94,15 @@ the lab was built using VMware Workstation and consists of two virtal machines t
 
 
 
-&#x20;- \*\*Operating system:\*\* Windows 11 Pro
+- \*\*Operating system:\*\* Windows 11 Pro
 
-&#x20;- \*\*Role:\*\* Monitored endpoint used to generate controlled security events
+- \*\*Role:\*\* Monitored endpoint used to generate controlled security events
 
-&#x20;- \*\*Wazuh agent:\*\* 4.14.8
+- \*\*Wazuh agent:\*\* 4.14.8
 
-&#x20;- \*\*Network:\*\* VMware NAT
+- \*\*Network:\*\* VMware NAT
 
-&#x20;- \*\*Lab IP:\*\* '192.168.80.129'
+- \*\*Lab IP:\*\* '192.168.80.129'
 
 
 
