@@ -132,11 +132,11 @@ the wazuh agent installed on the windows enpoint collected the security teletry 
 
 └──────────────┬──────────────┘
 
-&#x20;              │
+               │
 
-&#x20;              │ Security Telemetry
+               │ Security Telemetry
 
-&#x20;              ▼
+               ▼
 
 ┌─────────────────────────────┐
 
